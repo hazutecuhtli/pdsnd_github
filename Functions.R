@@ -3,6 +3,12 @@
 #Functions
 #*************************************************************************************************
 
+#This file contains functions for the implementation of the processing and analysis related to
+#Udacity data science with R programming. To be more specific, the functions change the format
+#of the provided data, remove undefined values, create more informative features, and transform
+#non-numerical categorical variables. Furthermore, it plots important features that help us
+#to understand the behaviour of the bike-share systems, related to the provided data. 
+
 #________________________________________________________________________________________________
 
 PrePro1 <- function(df){
